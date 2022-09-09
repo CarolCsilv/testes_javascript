@@ -1,0 +1,22 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function pulaLinha () {
+        document.write("<br><br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+       
+    }
+
+    var descobrimentoDoBrasil = 1500;
+    var anoAtual = 2022;
+    var geraçõesDeBrasileiros = (anoAtual - descobrimentoDoBrasil)/28;
+    
+    mostra("Desde 1500 até o ano atual, quantas gerações se passaram ? ");
+    pulaLinha();
+    mostra("Já se passaram " + Math.round (geraçõesDeBrasileiros) + " gerações");
+   
+</script>
